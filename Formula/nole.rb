@@ -19,7 +19,7 @@
 class Nole < Formula
   desc "Dumb-but-excellent internet gateway for frontier agents"
   homepage "https://github.com/dorukardahan/nole"
-  version "1.0.0"
+  version "1.0.2"
   license "Apache-2.0"
 
   livecheck do
@@ -30,22 +30,22 @@ class Nole < Formula
   on_macos do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-arm64"
-      sha256 "5e0acb93148eef94d26dcd86114fddfdb8d2f256dd3a89cf952f4c9142107c1b"
+      sha256 "3c72e65958e132e8dec5cdb85991cd26e0bca04e756383c64491856b819768fc"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-amd64"
-      sha256 "453c08d28ddaae71f9416af8315be11f0a0c5be52a596aba6417a310d71b0ae6"
+      sha256 "9d10261af443bb81cf636a80e3aa54f4a38f4f74b33b7e367d2bcc7b49458f8b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-arm64"
-      sha256 "8c9affbf600d206190574e93ee439526d5bc10f9460f5b52ad67cd25be66c5b8"
+      sha256 "95c3cd803293520cb6e11ebc3c8414518d4663d00cd23a99d219a57f8ebafe0b"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-amd64"
-      sha256 "71b19a2a121b94815264db315a6ac34dac6ee512dcfd831acfc5bb53ad65e0bc"
+      sha256 "a214bc740936be5305f1a149aacb586fb014996f7b1054f5b243aaa91bcd909f"
     end
   end
 
