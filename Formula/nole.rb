@@ -17,9 +17,9 @@
 # on_macos, on_linux, install, caveats, test. livecheck MUST precede the on_* url
 # blocks and caveats MUST precede test — do not reorder.
 class Nole < Formula
-  desc "Dumb-but-excellent internet gateway for frontier agents"
+  desc "Local, free-first/BYOK web search and page extraction router for AI agents"
   homepage "https://github.com/dorukardahan/nole"
-  version "1.8.1"
+  version "1.9.0"
   license "Apache-2.0"
 
   livecheck do
@@ -30,22 +30,22 @@ class Nole < Formula
   on_macos do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-arm64"
-      sha256 "64db40b69ed300b1c5af7af647788e018d2a019da9a3ccec4be620a880e511f7"
+      sha256 "c663b9e81e80ffd4c0b1f7b769d63aa14a81bf69a5de5d256f578a43692aa848"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-amd64"
-      sha256 "195848a4fcefef36579a820e49aee3d42f742f825d1e9d69fe39f0091302a1b3"
+      sha256 "ba8c53f36f71379a7c69524728b0da7dff8d1343dbe17f9bafdaabb748d42a31"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-arm64"
-      sha256 "6caaab2abf6622f209557bc49311970e6d03fcb4cb106c9922e97a96917bb2ce"
+      sha256 "c629c097a161d1017f90e10944c230664afddf00d99c53b9b69cc24e4894c7fa"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-amd64"
-      sha256 "32a2259edfe488119cb272c01ba8ec0e1cf221209da8f5e6d23c51ea318bce20"
+      sha256 "5ede615d35c8fdeedb8f4c6fa6cc1aeda2b4a497c005535fda1ba608594ef227"
     end
   end
 
