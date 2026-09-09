@@ -19,7 +19,7 @@
 class Nole < Formula
   desc "Local, free-first/BYOK web search and page extraction router for AI agents"
   homepage "https://github.com/dorukardahan/nole"
-  version "1.10.0"
+  version "1.11.0"
   license "Apache-2.0"
 
   livecheck do
@@ -30,22 +30,22 @@ class Nole < Formula
   on_macos do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-arm64"
-      sha256 "4ef923dcbf37505673eb0c31683d881192301fad18bbde1239b34ae209a02594"
+      sha256 "1fe11a4b9c055bf52fa9e5e032b364d040825efe187eb6e432bb8018be58d23e"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-darwin-amd64"
-      sha256 "9cb3350dff77ef0eceb4d6f3c832b6fe5d0bf51235baba592765ca985fec795e"
+      sha256 "0f0cc40b9d5fe88a7d8405ee035b3b6a1c4fe55e63c0c105fe44bc9790160bcb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-arm64"
-      sha256 "ce8b6d15357ce6dcb810796b3ae9a554cb4459eefb079ae49617a3f905b4d74d"
+      sha256 "6417f874594e5773ccbffec6da7165b2e62effc7081bc1c3ce4e93aa6ca61f9a"
     end
     on_intel do
       url "https://github.com/dorukardahan/nole/releases/download/v#{version}/nole-linux-amd64"
-      sha256 "f431340ee5ae9b230f9181fdf19121b000c009a54db79c146ecea4fdfebc44fe"
+      sha256 "5e23c21daded93cb3be2efbbfcb31a54773f9283491906abf72d706ba623b510"
     end
   end
 
